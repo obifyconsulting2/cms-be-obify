@@ -1,0 +1,37 @@
+Steps:
+0. Implement Role Based JWT Authentication & Authorization
+-----------------------------
+1. Create Course Entity
+2. Create Course DTO
+3. Create Course Repository
+4. Create Course Service
+5. Add PreAuthorize to Service methods
+6. Logic to get Current User
+Add ManyToOne Reln. to Course on top of user entity.
+7. Create Course Controller
+8. Add Create course implementation
+9. Add Get All course by Instructor implementation
+-----------------------------
+10. Create Section Entity
+11. Create SectionDTO
+12. Create Section Repository
+13. Create Section Service
+14. Add ManyToOne Course to Section Reln
+15. Create Section Controller
+16. Add Create Section implementation
+17. Add Get Sections by courseId implementation
+18. Add Get Section by sectionId implementation
+-----------------------------
+19. Create Lecture Entity
+20. Create LectureDTO
+21. Create Lecture Repository
+22. Create Lecture Service
+23. Add ManyToOne Section to Lecture Reln
+15. Create Lecture Controller
+16. Add Create Lecture implementation
+17. Add Get Lectures by sectionId implementation
+18. Add Get Lecture by lectureId implementation
+-----------------------------
+19. Organize Open and Closed APIs
+20. Create Order DTO and Order Entity
+21. Create Order Controller

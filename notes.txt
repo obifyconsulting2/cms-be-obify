@@ -1,0 +1,7 @@
+Open API
+https://www.baeldung.com/spring-rest-openapi-documentation
+http://localhost:8080/v3/api-docs/
+http://localhost:8080/swagger-ui/index.html#/
+---------------------------------------------------------------------------
+1.This branch has the JWT authentication and Role based Authorization
+2.This branch has functionality related to CRUD operation for Course by Instructor

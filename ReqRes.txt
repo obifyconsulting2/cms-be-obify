@@ -1,0 +1,36 @@
+http://localhost:8080/api/v1/signup
+{
+    "firstName" : "Student",
+    "lastName" : "One",
+    "email": "studentone@gmail.com",
+    "password": "secret"
+}
+
+http://localhost:8080/api/v1/signin
+{
+    "email": "instructorone@gmail.com",
+    "password": "secret"
+}
+
+http://localhost:8080/api/test/profile
+
+http://localhost:8080/api/v1/courses
+{
+    "title": "Course two by Instructor One",
+    "price": 2222.56
+}
+http://localhost:8080/api/v1/courses-by-instructor
+http://localhost:8080/api/v1/sections
+{
+    "title": "Section One by Course Two",
+    "courseId": 2
+}
+http://localhost:8080/api/v1/sections/1
+
+http://localhost:8080/api/v1/search-courses?q=Ins
+
+http://localhost:8080/api/v1/lectures
+{
+    "title": "Lec two by Sec One",
+    "sectionId": 1
+}
